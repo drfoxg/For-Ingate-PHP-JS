@@ -1,0 +1,22 @@
+php_flag  display_errors 1
+php_flag  display_startup_errors 1
+php_value  error_reporting 2047
+AddDefaultCharset UTF-8
+
+<Files *.ini> 
+Order deny,allow 
+Deny from all 
+</Files>
+
+<Files .gitignore> 
+Order deny,allow 
+Deny from all 
+</Files>
+
+RewriteEngine On
+RewriteBase /ingate1-3/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule .* /ingate1-3/index.php [L]
+RewriteRule ^(.*)$ /ingate1-3/index.php [L]
