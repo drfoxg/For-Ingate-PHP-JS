@@ -24,3 +24,15 @@
 ]<br>
 </p>
 <p><a href="job3">Решениe</a></p>
+<p><strong>Задание 4 (технология Javascript)</strong></p>
+<p>В скрипте javascript есть блок:<br>
+Var qty=10;<br>
+Какие будут результаты:<br>
+Alert(qty=10);<br>
+Alert(qty==10);<br>
+Alert(qty===10);<br>
+Alert(qty==”10”);<br>
+Alert(qty===”10”);<br>
+Alert(qty!==”10”);<br>
+Alert(qty!=”10”);<br></p>
+<p><a href="job4">Решениe</a></p>
